@@ -1,0 +1,711 @@
+Matthew Roeschke的贡献示例:
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+CI: Install nightly numpy on free threading build to avoid numpy 2.2.0 segfaults (#60582)
+
+Co-authored-by: John Paul Feliciano <felicijo@oregonstate.edu>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: fix PR01,SA01 for pandas.errors.UndefinedVariableError (#60570)
+
+DOC: fix PR07,RT03,SA01,ES01 for pandas.io.json.build_table_schema (#60571)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: fix SA01,ES01 for pandas.arrays.IntervalArray.length (#60556)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Examples added for float_format in to_csv documentation (#60457)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+upgrade to the latest version of PyData Sphinx Theme (#60430)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Add type hint for squeeze method (#60415)
+
+DOC: Add type hint for squeeze method (#60415)
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+String dtype: use ObjectEngine for indexing for now correctness over performance (#60329)
+
+replace twitter->X (#60426)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: Fix formatting of complex numbers with exponents (#60417)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: JHM Darbyshire <24256554+attack68@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+ENH: expose `to_pandas_kwargs` in `read_parquet` with pyarrow backend (#59654)
+
+BUG (string dtype): replace with non-string to fall back to object dtype (#60285)
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+TST: Add test for visibility of x label and xtick labels for `plot.hexbin` (#60253)
+
+Co-authored-by: Thomas Li <47963215+lithomas1@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+ENH: set __module__ on isna and notna (#60271)
+
+BUG: `read_csv` with chained fsspec TAR file and `compression="infer"` (#60100)
+
+Co-authored-by: Jason Mok <jasonmok@Jasons-Air.attlocal.net>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+ENH (string dtype): accept string_view in addition to string/large_string for ArrowStringArray input (#60222)
+
+TST (string dtype): avoid explicit object dtype Index in fixture data (#60217)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+TST (string dtype): update all tests in tests/frame/indexing (#60193)
+
+BUG (string dtype): fix where() for string dtype with python storage (#60195)
+
+TST (string dtype): remove xfails in extension tests + fix categorical/string dispatch (#60134)
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Typo fix in "comparison_with_r (#60177)
+
+DOC: Update contributing docs for Windows build tools instructions (#60170)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: fix docstring of DataFrame.to_latex, double curly braces to single (#60165)
+
+CI: fix wrong syntax in CI env yml files (mamba 2.0 compat) (#59910)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: preserve (object) dtype in factorize (#60118)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+CI/TST: fix parquet tz test returning pytz fixed offset (pyarrow 18) (#60143)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+PERF: faster _coerce_to_data_and_mask() for astype("Float64") (#60121)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+TST (string dtype): add explicit object vs str dtype to index fixture (#60116)
+
+DEPR: Change stacklevel to 2 in DataFrame(mgr) deprecation (#58694)
+
+Co-authored-by: Thomas Li <47963215+lithomas1@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+TST (string dtype): resolve all infer_string TODO/xfails in pandas/tests/arrays (#59686)
+
+String dtype: propagate NaNs as False in predicate methods (eg .str.startswith) (#59616)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Fix Styler docstring (#60001)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+REGR: groupby.value_counts with all NA values (#59999)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: Fix SparseFrameAccessor.to_dense return type (#59967)
+
+Co-authored-by: rdzantoine.pro@gmail.com <rdzantoine.pro@gmail.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Include Python.h first (#59929)
+
+CI: Run jobs on 2.3.x branch (#59939)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Separate out examples - pandas.str.is methods (#59850)
+
+DOC: the table name should be `air_quality_parameters` rather than `air_quality_parameters_name` (#59918)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: fix SA01,ES01 for pandas.tseries.offsets.WeekOfMonth (#59834)
+
+CI: Debug failing ARM builds (#59813)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Changed to GroupBy (#59699)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+TST (string): copy/view tests (#59702)
+
+REF (string): de-duplicate str_isfoo methods (#59705)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+PERF: Improve efficiency of `BlockValuesRefs` (#59598)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: fix docstring validation errors for pandas.io.formats.style.Styler (#59607)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: Fix Ability to set both color and style in pandas plotting (#59574)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+TST: link to correct downstream fastparquet bug (#59581)
+
+String dtype: fix pyarrow-based IO + update tests (#59478)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+String dtype: still return nullable NA-variant in object inference (`maybe_converts_object`) if requested (#59487)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Series replace error (#59552)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+PERF: avoid calling `DataFrame.dtypes` in loop (#59573)
+
+DOC: Fix docstrings for Timestamp: strptime, timetz, to_datetime64, to_julian_date (#59569)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Fix Numpy Docstring validation errors in pandas.api.extensions.ExtensionArray (#59540)
+
+Co-authored-by: Abhinav Thimma <athimma2@illinois.edu>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Fixed bug number in what's new v3.0.0 (#59539)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Fix get_datetimestruct_days overflow (#56001)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+CI: Fix ci for numpy 2 failures (#59545)
+
+DOCS: remove pandas-coverage app (#59536)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+TST: Added test for date_range for bug GH#57456 (#59519)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+REF (string): move ArrowStringArrayNumpySemantics methods to base class (#59501)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Fix docstrings for pandas.Period.month (#59517)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+REF (string): de-duplicate str_map_nan_semantics (#59464)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Fix pandas.Series.str.index RT03 (#59397)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+API/TST: expand tests for string any/all reduction + fix pyarrow-based implementation (#59414)
+
+DOC: Improve DataFrameGroupBy.std ddof doc (#59425)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: Fix `is_unique` regression for slices of `Index`es (#57958)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Abdulaziz Aloqeely <52792999+Aloqeely@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Bump pypa/cibuildwheel from 2.19.2 to 2.20.0 (#59413)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Add 'See Also' and 'Parameters' for pandas.api.indexers.VariableOffsetWindowIndexer (#59377)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Add 'See Also' for pandas.api.types.is_any_real_numeric_dtype (#59404)
+
+DOC: Add 'See Also' for pandas.api.types.is_any_real_numeric_dtype (#59404)
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Add 'See Also' for pandas.api.types.is_sparse (#59406)
+
+DOC: Add 'See Also' for pandas.api.types.is_sparse (#59406)
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: fix SA01 for pandas.MultiIndex.get_level_values (#59400)
+
+DOC: fix SA01 for pandas.MultiIndex.get_level_values (#59400)
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+CI: Install libegl explicitly for pytest-qt on ubuntu (#59423)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: fix ES01,RT03,SA01 for pandas.MultiIndex.remove_unused_levels (#59366)
+
+DOC: fix ES01,RT03,SA01 for pandas.MultiIndex.set_levels (#59367)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: Fix 57735 (#59335)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+String dtype: rename the storage options and add `na_value` keyword in `StringDtype()` (#59330)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Add SA01 for `pandas.api.types.is_string_dtype` (#59305)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: Hash and compare tuple subclasses as builtin tuples (#59286)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Upload 3.13 & free-threaded nightly wheels (#59136)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Using np.histogram_bin_edges with pd.cut (#59281)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Asish Mahapatra <asishkm@gmail.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+PERF: Don't create a CategoricalIndex._engine in __contains__ if categories are RangeIndex (#59178)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Fix numpy docstring validation errors in pandas.Series.skew (#59266)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: .plot(kind='pie') with ArrowDtype (#59211)
+
+CLN: More read_csv state (#59210)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+
+
+Co-authored-by: Thomas Li <47963215+lithomas1@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: "list" is not a keyword - .query (#59236)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+REF: Add back attr passing in concat by attribute (#59195)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Fix for excelwriter engine for ods files (#59185)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+remove ops div class to solve #21374 (#59144)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Laurent Mutricy <laurent.mutricy@ekium.eu>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: add SA01 for pandas.Timestamp.now (#59159)
+
+BUG: Allow show_versions to work for any module that raises an exception (#59114)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: Add type check for encoding_errors in pd.read_csv (#59075)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+CI: Modify the trailing-whitespace hook to preserve markdown hard linebreaks (#59117)
+
+BUG: `DataFrame.sparse.from_spmatrix` hard codes an invalid ``fill_value`` for certain subtypes (#59064)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: fix Raises TypeError if any kind of string dtype is passed in (#59113)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+CLN: enforce the deprecation of the `Series.argsort` NA behavior (#58232)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DEPR: replace for Timedelta deprecated unit 'd' with 'D' in benchmarks (#59083)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: True cannot be cast to bool in read_excel (#58994)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+TST: .loc dtype change bug (#59101)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Added a test for the groupby MultiIndex with codes (#59102)
+
+RT03 fix in pandas.Series.pop docstring. (#59103)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+REF: Use `default_index` or preserve original Index type for empty-like results (#59035)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+CI: remove xfail in test_to_xarray_index_types  (#59013)
+
+Co-authored-by: Kei <keiwork111@gmail.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+CLN: Plotting tests 2 (#58910)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+REF: Remove BlockManager.arrays in favor of BlockManager.blocks usage (#58804)
+
+Co-authored-by: Richard Shadrach <45562402+rhshadrach@users.noreply.github.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: add RT03 for pandas.interval_range (#58800)
+
+REF: Convert list comprehensions into lazy iterators (#58798)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: fix formatting of date_format special options (#58740)
+
+PERF: Eliminate circular references in accessor attributes (#58733)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+CLN: callable to Series.iloc returning a tuple (#58626)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: Use large_string in string array consistently (#58590)
+
+DOC: Enforce Numpy Docstring Validation for pandas.Index.str and pandas.Series.str (#58562)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Enforce Numpy Docstring Validation for pandas.Timestamp.day_of_week (#58533)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Fix Docstring Errors for pandas.api.extensions.ExtensionArray (#58540)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Fix PR07,RT03,SA01 errors for Index.append, Index.difference (#58453)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Rohan Jain <rohanjain@microsoft.com>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: fixing RT03 erros for Index: duplicated and nunique (#58432)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DEPR: Series setitem/getitem treating ints as positional (#58089)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+DOC: Update Categorical/CategoricalDtype methods' docstring to pass docstring validation (#58079)
+
+Co-authored-by: Jason Mok <jasonmok@Jasons-Air-4.attlocal.net>
+
+
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+BUG: Series.plot(kind="pie") does not respect ylabel argument (#58254)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+REF: move MaskedArray subclass attributes to dtypes (#58423)
+
+DOC: Enforce Numpy Docstring Validation for pandas.DatetimeIndex.to_pydatetime (#58441)
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
+Co-authored-by: Matthew Roeschke <10647082+mroeschke@users.noreply.github.com>
+
